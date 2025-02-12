@@ -2,9 +2,6 @@ import { Trophy } from "lucide-react";
 import React from 'react'; // This may be required in some setups
 import { motion } from "framer-motion";
 import CountdownTimer from "./Timer";
-import hiluxImage from '../assets/hilux.avif';
-import cashImage from '../assets/cash.jpg';
-import comingSoonImage from '../assets/comingsoon.jpeg';
 
 export default function Home() {
   return (
@@ -55,7 +52,7 @@ export default function Home() {
     className="bg-blue-900 rounded-lg overflow-hidden border border-yellow-500 shadow-lg"
   >
     <img 
-    src={hiluxImage} 
+    src="/246Competitions/assets/hilux.avif" 
     alt="Toyota Hilux" 
     className="w-full h-48 object-contain"
     />
@@ -80,7 +77,7 @@ export default function Home() {
     className="bg-blue-900 rounded-lg overflow-hidden border border-yellow-500 shadow-lg"
   >
     <img 
-      src={cashImage} 
+      src="/246Competitions/assets/cash.jpg" 
       alt="Cash Prize" 
       className="w-full h-48 object-contain"
     />
@@ -105,7 +102,7 @@ export default function Home() {
     className="bg-blue-900 rounded-lg overflow-hidden border border-yellow-500 shadow-lg"
   >
     <img 
-      src={comingSoonImage}
+      src="/246Competitions/assets/comingsoon.jpeg" 
       alt="Upcoming competition details" 
       className="w-full h-48 object-contain"
     />
