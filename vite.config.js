@@ -1,7 +1,11 @@
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
+
 export default defineConfig({
+  base: '/246Competitions/', // Set the base path for GitHub Pages
   plugins: [
-    tailwindcss(),
+    react(), // React plugin
+    tailwindcss(), // Tailwind CSS plugin
   ],
-})
+});
